@@ -36,3 +36,12 @@
 | 2 | `n: 2` | `Banyak bilangan genap = 1` | `Banyak bilangan genap = 1` | **LULUS** |
 | 3 | `n: 5` | `Banyak bilangan genap = 2` | `Banyak bilangan genap = 2` | **LULUS** |
 | 4 | `n: 10` | `Banyak bilangan genap = 5` | `Banyak bilangan genap = 5` | **LULUS** |
+
+
+### 5. File: `kuis2_deret_aritmetika.py`
+
+| Test Case | Input ($a, d, n$) | Suku yang Diharapkan | Jumlah Diharapkan | Keluaran Aktual | Status |
+| :---: | :--- | :--- | :---: | :--- | :---: |
+| 1 | $a = 2$, $d = 3$, $n = 5$ | 2, 5, 8, 11, 14 | 40.00 | Suku ke-1 s.d. 5: 2.00, 5.00, 8.00, 11.00, 14.00<br>**Jumlah deret:** 40.00 | **LULUS** |
+| 2 | $a = 10$, $d = -2$, $n = 4$ | 10, 8, 6, 4 | 28.00 | Suku ke-1 s.d. 4: 10.00, 8.00, 6.00, 4.00<br>**Jumlah deret:** 28.00 | **LULUS** |
+| 3 | $a = 1.5$, $d = 0.5$, $n = 3$ | 1.5, 2.0, 2.5 | 6.00 | Suku ke-1 s.d. 3: 1.50, 2.00, 2.50<br>**Jumlah deret:** 6.00 | **LULUS** |
